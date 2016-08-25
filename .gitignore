@@ -45,8 +45,4 @@ out
 .idea
 WebRoot\WEB-INF\classes
 *.class
-WebRoot\plugins
-WebRoot\static
 WebRoot\WEB-INF\lib
-WebRoot\uploadFiles
-WebRoot\META-INF

@@ -43,6 +43,6 @@ Temporary Items
 .apdisk
 out
 .idea
-WebRoot\WEB-INF\classes
+\WebRoot\WEB-INF\classes
 *.class
-WebRoot\WEB-INF\lib
+\WebRoot\WEB-INF\lib

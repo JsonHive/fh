@@ -44,5 +44,4 @@ Temporary Items
 out
 .idea
 *.class
-/WebRoot/WEB-INF/lib/
 /WebRoot/WEB-INF/classes/

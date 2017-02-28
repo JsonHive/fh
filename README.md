@@ -1,3 +1,5 @@
 # folo
-标准Spring MVC 框架
-仅允许JsonHive单独维护整理
+Spring MVC + mybatis
+使用JDK 1.7编译
+
+暂时仅允许上传者单独维护整理

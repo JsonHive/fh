@@ -1,7 +1,7 @@
 package com.folo.dao;
 /**
  * @author FH
- * 修改时间：2015、12、11
+ * 修改时间：2015/12/11
  */
 public interface DAO {
 
@@ -52,7 +52,7 @@ public interface DAO {
 
 	/**
 	 * 查找对象封装成Map
-	 * @param s
+	 * @param sql
 	 * @param obj
 	 * @return
 	 * @throws Exception

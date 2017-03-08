@@ -1,4 +1,4 @@
-package com.fh.controller.${packageName}.${objectNameLower};
+package com.folo.controller.${packageName}.${objectNameLower};
 
 import java.io.PrintWriter;
 import java.text.DateFormat;
@@ -16,13 +16,13 @@ import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import com.fh.controller.base.BaseController;
-import com.fh.entity.Page;
-import com.fh.util.AppUtil;
-import com.fh.util.ObjectExcelView;
-import com.fh.util.PageData;
-import com.fh.util.Jurisdiction;
-import com.fh.service.${packageName}.${objectNameLower}.${objectName}Manager;
+import com.folo.controller.base.BaseController;
+import com.folo.entity.Page;
+import com.folo.util.AppUtil;
+import com.folo.util.ObjectExcelView;
+import com.folo.util.PageData;
+import com.folo.util.Jurisdiction;
+import com.folo.service.${packageName}.${objectNameLower}.${objectName}Manager;
 
 /**
  * 说明：${TITLE}

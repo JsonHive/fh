@@ -1,1 +1,1 @@
-smtp.qq.com,fh,25,fh,itfather@1b23.com,fh,123
+smtp.qq.com,folo,25,folo,itfather@1b23.com,folo,123

@@ -10,18 +10,18 @@
     </settings>
 
 	<typeAliases>
-		<typeAlias type="com.fh.entity.system.User" alias="User"/>
-		<typeAlias type="com.fh.entity.system.Role" alias="Role"/>
-		<typeAlias type="com.fh.entity.system.Menu" alias="Menu"/>
-		<typeAlias type="com.fh.entity.system.Dictionaries" alias="Dictionaries"/>
-		<typeAlias type="com.fh.entity.system.Department" alias="Department"/>
-		<typeAlias type="com.fh.util.PageData" alias="pd"/>
+		<typeAlias type="com.folo.entity.system.User" alias="User"/>
+		<typeAlias type="com.folo.entity.system.Role" alias="Role"/>
+		<typeAlias type="com.folo.entity.system.Menu" alias="Menu"/>
+		<typeAlias type="com.folo.entity.system.Dictionaries" alias="Dictionaries"/>
+		<typeAlias type="com.folo.entity.system.Department" alias="Department"/>
+		<typeAlias type="com.folo.util.PageData" alias="pd"/>
 		<!-- 分页 -->
-		<typeAlias type="com.fh.entity.Page" alias="Page"/>
+		<typeAlias type="com.folo.entity.Page" alias="Page"/>
 	</typeAliases>
 	
 	<plugins>
-		<plugin interceptor="com.fh.plugin.PagePlugin">
+		<plugin interceptor="com.folo.plugin.PagePlugin">
 			<property name="dialect" value="mysql"/>
 			<property name="pageSqlId" value=".*listPage.*"/>
 		</plugin>

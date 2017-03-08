@@ -1,12 +1,12 @@
-package com.fh.service.${packageName}.${objectNameLower}.impl;
+package com.folo.service.${packageName}.${objectNameLower}.impl;
 
 import java.util.List;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Service;
-import com.fh.dao.DaoSupport;
-import com.fh.entity.Page;
-import com.fh.util.PageData;
-import com.fh.service.${packageName}.${objectNameLower}.${objectName}Manager;
+import com.folo.dao.DaoSupport;
+import com.folo.entity.Page;
+import com.folo.util.PageData;
+import com.folo.service.${packageName}.${objectNameLower}.${objectName}Manager;
 
 /**
  * 说明： ${TITLE}

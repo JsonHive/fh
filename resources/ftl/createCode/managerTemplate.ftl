@@ -1,8 +1,8 @@
-package com.fh.service.${packageName}.${objectNameLower};
+package com.folo.service.${packageName}.${objectNameLower};
 
 import java.util.List;
-import com.fh.entity.Page;
-import com.fh.util.PageData;
+import com.folo.entity.Page;
+import com.folo.util.PageData;
 
 /**
  * 说明： ${TITLE}接口

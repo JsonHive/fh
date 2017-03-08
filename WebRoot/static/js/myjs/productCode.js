@@ -194,7 +194,7 @@
 
 		dbz = dbz == '' ? '无':dbz;
 		ddefault = ddefault == '' ? '无':ddefault;
-		var fields = dname + ',fh,' + dtype + ',fh,' + dbz + ',fh,' + isQian + ',fh,' + ddefault + ',fh,' + flength;;
+		var fields = dname + ',folo,' + dtype + ',folo,' + dbz + ',folo,' + isQian + ',folo,' + ddefault + ',folo,' + flength;;
 
 		if(msgIndex == ''){
 			arrayField(fields);
@@ -222,7 +222,7 @@
 	//打开编辑属性(修改)
 	function editField(value,msgIndex){
 		$("#dialog-add").css("display","block");
-		var efieldarray = value.split(',fh,');
+		var efieldarray = value.split(',folo,');
 		$("#dname").val(efieldarray[0]);
 		$("#hcdname").val(efieldarray[0]);
 		$("#dbz").val(efieldarray[2]);
@@ -287,7 +287,7 @@
 	var index = 0;
 	//追加属性列表
 	function appendC(value){
-		var fieldarray = value.split(',fh,');
+		var fieldarray = value.split(',folo,');
 		$("#fields").append(
 			'<tr>'+
 			'<td class="center">'+Number(index+1)+'</td>'+
@@ -337,7 +337,7 @@
 	//判断属性名是否重复
 	function isSame(value){
 		for(var i=0;i<arField.length;i++){
-			var array0 = arField[i].split(',fh,')[0];
+			var array0 = arField[i].split(',folo,')[0];
 			if(array0 == value){
 				return false;
 			}
